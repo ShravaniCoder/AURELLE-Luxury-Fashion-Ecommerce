@@ -1,0 +1,1 @@
+export default function SectionHeading({eyebrow,title,description,link,linkText='Discover the edit'}){return <div className="section-heading"><div>{eyebrow&&<p className="eyebrow">{eyebrow}</p>}<h2>{title}</h2>{description&&<p className="section-description">{description}</p>}</div>{link&&<a className="text-link" href={link}>{linkText} <span>↗</span></a>}</div>}
